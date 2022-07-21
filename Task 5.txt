@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Image.network(
+            'https://images.app.goo.gl/W2ZgPixF6D6aYmU57',
+            width: 300,
+            height: 300,
+          ),
+        ),
+      ),
+    ),
+  );
+}
